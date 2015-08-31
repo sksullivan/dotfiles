@@ -15,6 +15,12 @@ defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
 
+# And throw that bitch on the left
+defaults write com.apple.dock orientation -string left
+
+# Prevent the most annoying feature of Mac OS X
+defaults write com.apple.dock mru-spaces -bool false
+
 # Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
 defaults write com.apple.screencapture type -string “png”
 
