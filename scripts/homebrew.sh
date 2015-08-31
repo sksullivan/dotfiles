@@ -50,8 +50,12 @@ brew install mysql
 brew install brew-cask
 brew install ffmpeg
 
+brew install nodejs
+brew install mongodb
+
+
 # Cask install some stuff globally
-brew cask install alfred
+brew cask install spectacle
 brew cask install caffeine
 brew cask install flux
 brew cask install virtualbox
@@ -60,24 +64,17 @@ brew cask install iterm2
 brew cask install nvalt
 brew cask install slack
 brew cask install atom
-brew cask install dropbox
-brew cask install google-drive
 brew cask install firefox
 brew cask install google-chrome
-brew cask install spotify
 brew cask install sublime-text3
 brew cask install vlc
 brew cask install java
-brew cask install skype
 brew cask install mou
 brew cask install dash
 brew cask install screenflick
 brew cask install transmit
-brew cask install mailbox
-brew cask install sketch
 brew cask install appcleaner
 brew cask install the-unarchiver
-brew cask install spectacle
 
 echo "Checking for GOPATH"
 if [ -d $GOPATH ]; then
