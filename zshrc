@@ -10,7 +10,7 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # User configuration
 
 # for golang
-export GOPATH=$HOME/go
+export GOPATH=$HOME/dev/go
 export PATH=$PATH:$GOPATH/bin
 
 # for android
