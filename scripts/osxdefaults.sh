@@ -21,9 +21,6 @@ defaults write com.apple.dock orientation -string left
 # Prevent the most annoying feature of Mac OS X
 defaults write com.apple.dock mru-spaces -bool false
 
-# Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
-defaults write com.apple.screencapture type -string “png”
-
 # Display full POSIX path as Finder window title
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 
