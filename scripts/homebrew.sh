@@ -56,24 +56,15 @@ brew install mongodb
 
 # Cask install some stuff globally
 brew cask install spectacle
-brew cask install caffeine
 brew cask install flux
 brew cask install virtualbox
-brew cask install google-chrome
 brew cask install iterm2
-brew cask install nvalt
 brew cask install slack
-brew cask install atom
-brew cask install firefox
-brew cask install google-chrome
 brew cask install sublime-text3
 brew cask install vlc
 brew cask install java
 brew cask install mou
 brew cask install dash
-brew cask install screenflick
-brew cask install transmit
-brew cask install appcleaner
 brew cask install the-unarchiver
 
 echo "Checking for GOPATH"
